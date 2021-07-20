@@ -1,0 +1,145 @@
+.frImg > img {
+  width: 100%;
+  height: 100%;
+}
+.frMaindivC {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+.frTitle1 {
+  font-family: "Courier New", Courier, monospace;
+  /* font-size: 39px; */
+  /* background-color: antiquewhite; */
+  padding: 10px 0;
+}
+.frTitle1 > h1 {
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+}
+.users500k {
+  color: rgb(32, 193, 120);
+}
+/* .frMaindivC {
+  display: flex;
+  flex-direction: row-reverse;
+} */
+
+.fr500kdescDiv {
+  /* background-color: aqua; */
+  text-align: center;
+  padding: 10px;
+  /* background-color: blue; */
+}
+/* .frSubtitle2 {
+} */
+.frSubtitle2 > p {
+  margin: 0;
+  padding: 20px 0%;
+}
+.frBtns1 {
+  /* background-color: violet; */
+  display: grid;
+  grid-template-columns: auto;
+  padding: 5px;
+}
+.stInvesBtn1,
+.getFundBtn1 {
+  width: 90%;
+  height: 45px;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+.stInvesBtn1 {
+  background-color: rgb(46, 192, 122);
+  color: white;
+  border: 2px solid rgb(46, 192, 122);
+  border-radius: 5px;
+}
+.getFundBtn1 {
+  border: 2px solid rgb(46, 192, 122);
+  color: rgb(46, 192, 122);
+  border-radius: 5px;
+  background-color: white;
+}
+.stInvesBtn1:hover,
+.getFundBtn1:hover {
+  background-color: rgb(39, 155, 99);
+  border: 2px solid rgb(39, 155, 99);
+  color: white;
+}
+.frMaindivC2 {
+  padding: 10px 30px;
+  display: grid;
+  grid-template-columns: auto;
+}
+.frMaindivC2 > div {
+  margin: 10px 5px;
+  padding: 5px;
+}
+.frMaindivC2 > div > h1 {
+  color: rgb(46, 192, 122);
+  font-size: 50px;
+  margin: 10px 0;
+  padding: 0px;
+}
+.frMaindivC2 > div > h2 {
+  margin: 20px 0;
+  padding: 0px;
+}
+@media only screen and (min-width: 992px) {
+  .frMaindivC {
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid gray;
+  }
+  .frTitle1 > h1 {
+    font-size: 40px;
+  }
+  .fr500kdescDiv {
+    text-align: left;
+    /* background-color: violet; */
+    padding: 70px 70px;
+  }
+  .frBtns1 {
+    grid-template-columns: 250px 250px;
+    /* background-color: violet; */
+    padding-left: 20px;
+    width: 450px;
+  }
+  .stInvesBtn1,
+  .getFundBtn1 {
+    width: 70%;
+    height: 45px;
+    margin: 0px 0px;
+  }
+  .frSubtitle2 > p {
+    width: 550px;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+  .frMaindivC2 {
+    padding: 10px 50px;
+    /* display: grid; */
+    grid-template-columns: auto auto auto;
+  }
+  .frMaindivC2 > div {
+    margin: 0 25px;
+    text-align: center;
+  }
+  .frMaindivC2 > div > h1 {
+    color: rgb(46, 192, 122);
+    font-size: 65px;
+    margin: 10px 0;
+    padding: 0px;
+  }
+  .frMaindivC2 > div > h2 {
+    margin: 0px 0;
+    padding: 0px;
+  }
+  .frMaindivC2 > div > p {
+    text-align: left;
+    color: gray;
+  }
+}

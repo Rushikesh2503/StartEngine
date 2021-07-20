@@ -1,0 +1,191 @@
+{
+    "data": [
+        {
+            "category":"Signed To Trade On StartEngine’s Secondary Market",
+            "array" : [
+                {
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/5f344d3f7eb65b05c1b59e27/images/startup_cover/tombstone_044a5459-edit__1_.jpg",
+                  "imgtag":"Reg A+via StartEngine Primary, LLC" ,
+                  "title":"Fisher Wallace Laboratories",
+                  "tagline":"Medical Devices for Mood and Sle...",
+                  "raised":"$2.9M",
+                  "investors":"1.7K",
+                  "minInvest":"$497"
+                },{
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/5f9740c55aaa3925b7ae05e3/images/startup_cover/tombstone_main_image-xcraft.jpg",
+                  "imgtag":"Reg A+via StartEngine Primary, LLC" ,
+                  "title":"xCraft Enterprises, Inc.",
+                  "tagline":"America's Drone Company",
+                  "raised":"$687K",
+                  "investors":"713",
+                  "minInvest":"$352"
+                },{
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/5f80ba6c7eb65b4025318b52/images/startup_cover/tombstone_tombstone_graze_hero_for_se__2_.jpg",
+                  "imgtag":"Reg A+via StartEngine Primary, LLC" ,
+                  "title":"Piestro",
+                  "tagline":"The Future of Artisanal Pizza",
+                  "raised":"$1.3M",
+                  "investors":"618",
+                  "minInvest":"$1K"
+                }
+            ]
+            
+        },
+        {
+            "category":"Based On Your Interests",
+            "array" : [
+                {
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/589f9a7869adae0a2700007c/images/startup_cover/tombstone_video_cover_shot_v4.jpg",
+                  "imgtag":"Reg CF via StartEngine Capital, LLC" ,
+                  "title":"American 7s Football League (A7FL)",
+                  "tagline":"Professional No-Helmets No-Pads ...",
+                  "raised":"$587K",
+                  "investors":"747",
+                  "minInvest":"$375"
+                },{
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/5be0c96863f6de4495000a4a/images/startup_cover/tombstone_desktop_ab5db896-3b81-4674-972d-a6799e4dd68d.jpg",
+                  "imgtag":"Reg CF via StartEngine Capital, LLC" ,
+                  "title":"MSBAI",
+                  "tagline":"The Ultimate Engineering AI Assi..",
+                  "raised":"$620K",
+                  "investors":"856",
+                  "minInvest":"$202"
+                },{
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/5c5242b6547a996300543aaf/images/startup_cover/tombstone_main_image.jpg",
+                  "imgtag":"Reg CF via StartEngine Capital, LLC" ,
+                  "title":"Liberty Access Technologies",
+                  "tagline":"Access Control Innovators",
+                  "raised":"$1.3M",
+                  "investors":"1.7K",
+                  "minInvest":"$300"
+                }
+            ]
+            
+        },{
+            "category":"Most Momentum",
+            "array" : [
+                {
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/5fdaa93a5aaa392cd9cf19e7/images/startup_cover/tombstone_cover2.jpg",
+                  "imgtag":"Reg A+ via StartEngine Primary, LLC" ,
+                  "title":"Rentberry",
+                  "tagline":"The first global home rental pla...",
+                  "raised":"$520K",
+                  "investors":"245",
+                  "minInvest":"$300"
+                },{
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/606500a74ce5a81eb61c004a/images/startup_cover/tombstone_frame_270.jpg",
+                  "imgtag":"Reg CF via StartEngine Capital, LLC" ,
+                  "title":"Streamlytics",
+                  "tagline":"The Future of Data",
+                  "raised":"$725K",
+                  "investors":"720",
+                  "minInvest":"$251"
+                },{
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/5f9c6164499ed57511085cd1/images/startup_cover/tombstone_main_image.jpg",
+                  "imgtag":"Reg CF via StartEngine Capital, LLC" ,
+                  "title":"WiGL",
+                  "tagline":"Long Distance Wireless Power",
+                  "raised":"$5M",
+                  "investors":"4.8K",
+                  "minInvest":"$220"
+                }
+            ]
+            
+        },{
+            "category":"Most Popular",
+            "array" : [
+                {
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/5f4ef3b44ce5a818d25a0cde/images/startup_cover/tombstone_desktop_main_image.jpg",
+                  "imgtag":"Reg A+ via StartEngine Primary, LLC" ,
+                  "title":"Monogram Orthopaedics",
+                  "tagline":"Future of Joint Replacement",
+                  "raised":"$8.3M",
+                  "investors":"5.4K",
+                  "minInvest":"$251"
+                },{
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/5f3b37b25aaa39345c7f69b8/images/startup_cover/tombstone_Main_Image__20_.jpg",
+                  "imgtag":"Reg A+ via StartEngine Primary, LLC" ,
+                  "title":"StorEn Technologies, Inc.",
+                  "tagline":"Renewable Energy Storage",
+                  "raised":"$5.5M",
+                  "investors":"4.4K",
+                  "minInvest":"$480"
+                },{
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/5fc526484ce5a83526dfae7d/images/startup_cover/tombstone_image__9_.jpg",
+                  "imgtag":"Reg CF via StartEngine Capital, LLC" ,
+                  "title":"LaneAxis",
+                  "tagline":"Blockchain-Powered Direct Freigh...",
+                  "raised":"$4M",
+                  "investors":"3.9K",
+                  "minInvest":"$298"
+                }
+            ]
+            
+        },
+        {
+            "category":"New",
+            "array" : [
+                {
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/60e72f257eb65b0a1297c5ec/images/startup_cover/tombstone_real_estate.jpg",
+                  "imgtag":"Reg A+ via StartEngine Crowdfunding, Inc" ,
+                  "title":"StartEngine Real Estate",
+                  "tagline":"Expand the Possibilities of Your...",
+                  "raised":"$15.2K",
+                  "investors":"19",
+                  "minInvest":"$500"
+                },{
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/60833c1fd2559a1d2e8afa96/images/startup_cover/tombstone_main_image.jpg",
+                  "imgtag":"Reg CF via StartEngine Capital, LLC" ,
+                  "title":"MEXI Craft Tequila Seltzer",
+                  "tagline":"Craft Tequila Seltzer",
+                  "raised":"$137K",
+                  "investors":"61",
+                  "minInvest":"$474"
+                },{
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/60caa7a67eb65b302d8ab4e0/images/startup_cover/tombstone_main_image.jpg",
+                  "imgtag":"Reg CF via StartEngine Capital, LLC" ,
+                  "title":"AEXLAB",
+                  "tagline":"A virtual reality technology stu...",
+                  "raised":"$210K",
+                  "investors":"93",
+                  "minInvest":"$100"
+                }
+            ]
+            
+        },
+        {
+            "category":"Closing Soon",
+            "array" : [
+                {
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/5fbdce947eb65b2f8c98d2ae/images/startup_cover/tombstone_booksniffer-ios-android-ipad-1-1024x1024-1-768x768.jpg",
+                  "imgtag":"Reg CF via StartEngine Capital, LLC" ,
+                  "title":"Booksniffer Inc.",
+                  "tagline":"Reading is good ",
+                  "raised":"$143K",
+                  "investors":"270",
+                  "minInvest":"",
+                  "hoursleft":"4"
+                },{
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/5e90fe2b628140461778963d/images/startup_cover/tombstone_desktop_d6b60c67-2a44-40ff-b2da-0767183fc4c6.jpg",
+                  "imgtag":"Reg CF via StartEngine Capital, LLC" ,
+                  "title":"Carnot Compression",
+                  "tagline":"Sustainable oil-free air compres...",
+                  "raised":"$475K",
+                  "investors":"697",
+                  "minInvest":"",
+                  "hoursleft":"3"
+                },{
+                  "cardimg":"https://d19j0qt0x55bap.cloudfront.net/production/startups/5ff65aba4ce5a8210a1fc8ba/images/startup_cover/tombstone_790x460_-_r_b_only_crowdfunding_cover_photo.jpg",
+                  "imgtag":"Reg CF via StartEngine Capital, LLC" ,
+                  "title":"COLORS Worldwide dba R&B ONLY",
+                  "tagline":"Amplifying the R&B genre.",
+                  "raised":"$238K",
+                  "investors":"510",
+                  "minInvest":"",
+                  "hoursleft":"4"
+                }
+            ]
+            
+        }
+    ]
+}
