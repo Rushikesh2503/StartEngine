@@ -1,11 +1,11 @@
 import "./App.css";
-// import FrontB1 from "./Components/FrontB1";
-import Footer from "./Components/Footer";
+import FrontB1 from "./Components/FrontBox1/FrontB1";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
     <div>
-      {/* <FrontB1 /> */}
+      <FrontB1 />
       <Footer />
     </div>
   );
