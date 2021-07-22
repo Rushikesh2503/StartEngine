@@ -6,8 +6,8 @@ export default function card({ data }) {
     const dataItem = data.map((item, i) => <div style={{ width: "100%", display: "flex", flexDirection: "column"}} key={i} >
         <h2 styles={{ width: "100%"}} >{item.category}</h2>
         <div className={styles.category} >
-        <div style={{ width: "100%", display: "flex", flexDirection: "row" }} key={i} >    
-        {item.array.map(el =>  <ShowCard el={el} /> )}
+        <div style={{ width: "100%", display: "flex", flexDirection: "row" }} key={i}  >    
+          {item.array.map(el => <ShowCard el={el} /> )}
         </div>
         </div>
   </div>);

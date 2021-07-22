@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from "./FrontB1.module.css"
+import styled from "./Achievements.module.css"
 
 const FrontB1 = () => {
     return (

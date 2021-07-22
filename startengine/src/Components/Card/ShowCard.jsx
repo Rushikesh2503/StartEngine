@@ -27,6 +27,6 @@ export default function card({ el }) {
           <span htmlFor="">Min invest</span>
         </div>
       </div>
-    </div>
+      </div>
   );
 }
