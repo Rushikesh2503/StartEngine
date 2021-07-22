@@ -1,0 +1,107 @@
+.GIF3Div1 {
+  padding: 30px;
+  width: 96%;
+  /* background-color: aqua; */
+  margin: auto;
+  box-sizing: border-box;
+}
+.GIF3Div1 > h3 {
+  font-weight: 600;
+  text-align: justify;
+  /* word-spacing: 3px; */
+}
+
+.greenText {
+  color: rgb(46, 192, 122);
+  text-decoration: none;
+}
+.giDiv1inp {
+  width: 95%;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid rgb(51, 51, 51);
+}
+.giDiv1inp::placeholder {
+  padding: 5px 10px;
+  color: rgb(179, 179, 179);
+  font-size: 15px;
+}
+.giDiv1btn {
+  background-color: rgb(32, 193, 120);
+  color: white;
+  border: 3px solid rgb(32, 193, 120);
+  border-radius: 3px;
+  width: 96%;
+  height: 38px;
+  margin: 20px 0;
+}
+.giDiv1btn:hover {
+  background-color: rgb(30, 158, 96);
+  border: 2px solid rgb(30, 158, 96);
+  cursor: pointer;
+}
+.GIF3Div2 {
+  width: 96%;
+  /* background-color: greenyellow; */
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.GIF3Div3 {
+  width: 96%;
+  /* background-color: greenyellow; */
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.gifd2 > img {
+  width: 90%;
+}
+.gifd2Desc {
+  text-align: center;
+}
+.gifd2Desc > p {
+  color: rgb(87, 86, 86);
+}
+.gif3last {
+  /* background-color: hotpink; */
+  width: 90%;
+  margin: auto;
+}
+@media only screen and (min-width: 992px) {
+  .GIF3Div1 {
+    display: flex;
+    padding: 50px 0px 50px 300px;
+    /* background-color: hotpink; */
+  }
+  .GIF3Div1 > h3 {
+    width: 400px;
+    /* background-color: hotpink; */
+  }
+  .giDiv1inp {
+    width: 350px;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .giDiv1btn {
+    width: 150px;
+    height: 38px;
+    margin: 0px 0;
+    margin-top: 20px;
+  }
+  .GIF3Div2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .gifd2Desc {
+    margin: 200px 50px;
+  }
+  .GIF3Div3 {
+    display: flex;
+  }
+  .gif3last {
+    /* background-color: hotpink; */
+    width: 1000px;
+    margin: auto;
+  }
+}
