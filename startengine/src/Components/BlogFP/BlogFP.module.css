@@ -34,12 +34,14 @@
     width: 80%;
     margin: auto;
     /* background-color: wheat; */
+    /* background-color: wheat; */
   }
   .blTit {
     display: flex;
     padding: 0 0 0 150px;
     margin: 20px 0;
     box-sizing: border-box;
+    /* background-color: wheat; */
     /* background-color: wheat; */
   }
   .blTit > button {
