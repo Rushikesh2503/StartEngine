@@ -1,0 +1,66 @@
+.card {
+  width: 100%;
+}
+.top {
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+}
+.left {
+  width: 50%;
+  text-align: left;
+  padding: 70px;
+}
+.left h1 {
+  font-size: 48px;
+}
+.left span {
+  color: #2fbf7a;
+}
+
+.left p {
+  font-size: 22px;
+}
+
+.left input {
+  width: 60%;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.left button {
+  width: 150px;
+  height: 46px;
+  background-color: #2fbf7a;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+.right {
+  width: 50%;
+  text-align: left;
+}
+.right img {
+  width: 80%;
+  height: 80%;
+}
+.right p {
+  padding-left: 40px;
+}
+.bottom {
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 0 40px;
+}
+.bottom img {
+  width: 80%;
+  margin-top: 20px;
+}

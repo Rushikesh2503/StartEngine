@@ -1,8 +1,16 @@
-import Main from './Components/Main'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from './Components/pages/Home';
+import GetFunding from './Components/pages/GetFunding';
+
 function App() {
   return (
-    <div className="App">
-      <Main/>
+    <div className="app">
+      <Router>
+      <Switch>
+        <Route exact path="/"><Home/></Route>
+        <Route path="/GetFunding"><GetFunding/></Route>
+      </Switch>
+    </Router>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "./Achievements.module.css"
 
-const FrontB1 = () => {
+const Achievements = () => {
     return (
         <div>
             <div className={styled.frMaindivC}>
@@ -46,4 +46,4 @@ const FrontB1 = () => {
     )
 }
 
-export default FrontB1
+export default Achievements
