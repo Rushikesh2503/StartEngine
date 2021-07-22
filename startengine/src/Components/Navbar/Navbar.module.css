@@ -1,11 +1,9 @@
 .section {
-  width: 100%;
-  height: 60px;
   background-color: #20c178;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   color: white;
-  padding-top: 8px;
+  padding: 10px 0;
   font-family: Heebo, Arial, sans-serif;
   font-weight: bold;
 }
@@ -14,39 +12,44 @@
 }
 
 .navbar {
-  width: 100%;
-  height: 50px;
-  display: flex;
-  padding: 20px;
   z-index: 1000;
 }
 
 .logo {
-  width: 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
 }
 .logo img {
-  width: 60%;
-  margin-right: 30px;
-  margin-left: 10px;
+  width: 80px;
+  height: 40px;
+  margin-left: 30px;
 }
+
 .search {
   color: grey;
-  font-size: 18px;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.hamburger {
+  font-size: 20px;
+  color: #20c178;
+  margin-right: 20px;
+}
+.empty {
+  display: none;
 }
 
 .center {
-  width: 55%;
-  display: flex;
-  justify-content: flex-end;
+  width: 100%;
 }
 .center button {
-  width: 160px;
-  border: 1px solid black;
+  width: 96%;
   padding: 15px 5px;
   border-radius: 5px;
-  margin-right: 15px;
+  margin: 2% 2% 1% 2%;
+  transition: all 0.5s ease-in-out;
 }
 .center button:nth-child(1) {
   background-color: #20c178;
@@ -56,25 +59,66 @@
 .center button:nth-child(2) {
   border: 2px solid #20c178;
 }
-.links {
-  display: flex;
-  align-items: center;
-}
-
-.links button {
+.center button {
   border: none;
-  margin-left: 10px;
   background-color: white;
-  margin: 0 15px;
+  text-align: left;
 }
 
-.links p {
-  position: relative;
-  top: -11px;
-  left: -6px;
-  font-weight: bold;
-  font-size: 10px;
-  background-color: #f1c94b;
-  padding: 3px 5px;
-  border-radius: 5px;
+@media only screen and (min-width: 992px) {
+  .navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 20px;
+    z-index: 1000;
+    border: 1px solid #20c178;
+  }
+
+  .logo {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+  }
+  .logo img {
+    width: 60%;
+    margin: 0 30px;
+  }
+  .icon {
+    display: flex;
+  }
+  .search {
+    color: grey;
+    font-size: 22px;
+  }
+  .hamburger {
+    display: none;
+  }
+
+  .container {
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid #20c178; */
+  }
+  .container button {
+    border-radius: 5px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 11%;
+    border: none;
+    background-color: white;
+  }
+  .container button:nth-child(1) {
+    width: 160px;
+    background-color: #20c178;
+    border: 2px solid #20c178;
+    color: white;
+  }
+  .container button:nth-child(2) {
+    width: 160px;
+    border: 2px solid #20c178;
+    margin-left: 10px;
+  }
 }
