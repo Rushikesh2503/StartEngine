@@ -1,0 +1,49 @@
+.sslowerD {
+  display: flex;
+  width: 700px;
+  margin: 20px auto;
+  /* background-color: blue; */
+}
+.sslowerD > div {
+  width: 150px;
+  /* background-color: burlywood; */
+  margin: 10px 100px;
+}
+.sscardMainDiv {
+  text-align: center;
+  /* background-color: burlywood; */
+  padding: 10px 0;
+}
+@media only screen and (min-width: 992px) {
+  .sslowerD {
+    display: flex;
+    width: 250px;
+    margin: 0px auto;
+    /* background-color: blue; */
+  }
+  .sslowerD > div {
+    width: 160px;
+    height: 100px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+  }
+  .sscardMainDiv {
+    text-align: center;
+    width: 330px;
+    margin: 0 20px;
+    /* font-size: 10px; */
+  }
+  .ssImgC {
+    width: 330px;
+  }
+  .ssparaDesc {
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: rgb(112, 112, 112);
+    text-align: justify;
+    /* background-color: chartreuse; */
+  }
+}

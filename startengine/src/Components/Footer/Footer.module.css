@@ -1,0 +1,77 @@
+.mainFooter {
+  /* background-color: bisque; */
+  padding: 50px;
+}
+
+.stengineLogoDiv {
+  width: 160px;
+  text-align: center;
+  padding: 0 10px;
+}
+.stengineLogoDiv > img {
+  width: 150px;
+  height: 80px;
+}
+.stengineLogoDiv > p {
+  font-size: 12px;
+  color: gray;
+}
+.footBoxesHor {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 20px;
+}
+.footerBHpDives {
+  /* padding: 5px; */
+  color: gray;
+  font-size: 12px;
+  width: 200px;
+}
+.footerBHpDives > p > a {
+  color: gray;
+  text-decoration: none;
+}
+.footerBHpDives > p > a:hover {
+  color: rgb(46, 192, 122);
+  cursor: pointer;
+}
+.footBoxH1 {
+  /* background-color: red; */
+  width: 220px;
+}
+.footBoxH1 > h4 {
+  margin-bottom: 0%;
+}
+.impmsg {
+  font-size: 13px;
+  color: gray;
+  /* background-color: greenyellow; */
+}
+.impmsgDiv {
+  /* background-color: red; */
+  padding: 5px;
+}
+.impmsgDiv > h6 {
+  color: rgb(97, 97, 97);
+}
+.impmsgDiv > p > span > a {
+  text-decoration: none;
+  color: rgb(46, 192, 122);
+  font-weight: 900px;
+  font-size: 12px;
+}
+@media only screen and (min-width: 992px) {
+  .mainFooter {
+    width: 65%;
+    margin: auto;
+    text-align: justify;
+  }
+  .footBoxesHor {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+  }
+  .stengineLogoDiv > img {
+    margin-top: 25px;
+  }
+}

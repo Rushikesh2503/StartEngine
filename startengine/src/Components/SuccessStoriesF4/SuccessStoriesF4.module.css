@@ -1,0 +1,20 @@
+.ssMmainD {
+  text-align: center;
+  /* background-color: aqua; */
+  padding: 20px;
+}
+@media only screen and (min-width: 992px) {
+  .ssMmainD {
+    display: flex;
+    width: 73%;
+    margin: 20px auto;
+    text-align: justify;
+  }
+  .ssMmainD:nth-child(2) > div:first-child > div {
+    margin-top: 50px;
+  }
+  .ssMmainD > div:nth-child(2) {
+    margin-top: 100px;
+    height: 800px;
+  }
+}
