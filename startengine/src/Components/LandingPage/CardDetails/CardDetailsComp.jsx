@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "./CardDetailsComp.module.css";
-import Footer from "../../LandingPage/Footer/Footer"
+
 
 const CardDetailsComp = ({data}) => {
     console.log('data:', data)
@@ -73,9 +73,6 @@ const CardDetailsComp = ({data}) => {
                         <p className={styled.graytext2}>This Reg A+ offering is made available through StartEngine Primary, LLC.</p><p className={styled.graytext2}>This investment is speculative, illiquid, and involves a high degree of risk, including the possible loss of your entire investment.</p>
                     </div>
                 </div>
-            </div>
-            <div>
-                <Footer/>
             </div>
         </div>
     )

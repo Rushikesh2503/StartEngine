@@ -1,5 +1,6 @@
 import React from 'react';
-import styled from "./Achievements.module.css"
+import styled from "./Achievements.module.css";
+import { Link } from "react-router-dom";
 
 const FrontB1 = () => {
     return (
@@ -19,9 +20,9 @@ const FrontB1 = () => {
                         <button className={styled.stInvesBtn1}>
                         Start Investing
                         </button>
-                        <button className={styled.getFundBtn1}>
-                        Get Funding
-                        </button>
+                        <Link to="/GetFunding">
+              <button className={styled.getFundBtn1}>Get Funding</button>
+            </Link>
                     </div>
                 </div>
             </div>

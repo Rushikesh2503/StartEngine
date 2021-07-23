@@ -1,0 +1,26 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  padding: 40px 100px;
+}
+.main h1 {
+  color: #2fbf7a;
+  margin-top: 40%;
+}
+.main div {
+  width: 80%;
+  height: 250px;
+  text-align: left;
+  padding: 0 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+  line-height: 1.5em;
+  overflow: hidden;
+}
+
+.main p {
+  color: #5b5e6d;
+}

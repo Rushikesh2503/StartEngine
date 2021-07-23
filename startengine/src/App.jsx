@@ -1,8 +1,31 @@
-import Main from './Components/Main'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Piestro from "./Components/Pages/Piestro";
+import Fisher from "./Components/Pages/Fisher";
+import XCraft from "./Components/Pages/XCraft";
+import Home from "./Components/Pages/Home";
+import GetFunding from "./Components/Pages/GetFunding";
 function App() {
   return (
-    <div className="App">
-      <Main/>
+    <div>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/GetFunding">
+            <GetFunding />
+          </Route>
+          <Route path="/piestro">
+            <Piestro />
+          </Route>
+          <Route path="/fisher">
+            <Fisher />
+          </Route>
+          <Route path="/XCraft">
+            <XCraft />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
