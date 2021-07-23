@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 import styles from "./Navbar.module.css";
 import { FaSearch, FaBars, FaTimes } from "react-icons/fa";
 
@@ -23,18 +25,22 @@ const Navbar = () => {
       </section>
       <div className={styles.navbar}>
         <div className={styles.logo}>
-          <img
-            src="https://mk0blogstarteng8gb57.kinstacdn.com/wp-content/uploads/2019/02/StartEngine.png"
-            alt=""
-          />
+          <Link to="/">
+            <img
+              src="https://mk0blogstarteng8gb57.kinstacdn.com/wp-content/uploads/2019/02/StartEngine.png"
+              alt=""
+            />
+          </Link>
           <div className={styles.icon}>
             <FaSearch className={styles.search} />
-           <FaBars onClick={handleClicked} className={styles.hamburger}/>
+            <FaBars onClick={handleClicked} className={styles.hamburger} />
           </div>
         </div>
-        <div className={ clicked? styles.center:styles.container}>
+        <div className={clicked ? styles.center : styles.container}>
           <button>Start Investing</button>
-          <button>Get Funding</button>
+          <Link to="/GetFunding" className={styles.linkBtn}>
+            <button>Get Funding</button>
+          </Link>
           <button>Trade</button>
           <button>Earn Bonus Shares</button>
           <button>Blog</button>

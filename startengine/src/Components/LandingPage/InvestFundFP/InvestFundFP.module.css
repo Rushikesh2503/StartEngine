@@ -41,7 +41,7 @@
 }
 
 .invesDivBg > button,
-.invesDivBg2 > button {
+.getFundBtn1 {
   background-color: rgb(32, 193, 120);
   color: white;
   border: 3px solid rgb(32, 193, 120);

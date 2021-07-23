@@ -52,10 +52,11 @@
   transition: all 0.5s ease-in-out;
 }
 .center button:nth-child(1) {
-  background-color: #20c178;
+  /* background-color: #20c178; */
   border: 2px solid #20c178;
   color: white;
 }
+
 .center button:nth-child(2) {
   border: 2px solid #20c178;
 }
@@ -123,5 +124,12 @@
     width: 160px;
     border: 2px solid #20c178;
     margin-left: 10px;
+  }
+  .linkBtn > button {
+    height: 50px;
+    background-color: white !important;
+    color: #20c178 !important;
+    border-radius: 5px;
+    margin: 0 10px;
   }
 }
