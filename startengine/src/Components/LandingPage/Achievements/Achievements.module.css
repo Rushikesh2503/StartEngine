@@ -92,7 +92,7 @@
   .frMaindivC {
     display: flex;
     flex-direction: row-reverse;
-    border-bottom: 1px solid gray;
+    border-bottom: none;
   }
   .frTitle1 > h1 {
     font-size: 40px;

@@ -2,6 +2,7 @@
   padding: 10%;
   background-color: #f7f7f7;
 }
+
 .main h2 {
   color: #20c177;
   text-align: center;
@@ -75,4 +76,7 @@
 }
 .bottom span {
   color: #575757;
+}
+.cardsDivv > div {
+  margin: 0 30px;
 }
