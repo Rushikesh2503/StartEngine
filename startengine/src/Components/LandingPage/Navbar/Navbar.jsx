@@ -25,11 +25,11 @@ const Navbar = () => {
       </section>
       <div className={styles.navbar}>
         <div className={styles.logo}>
-            <Link to="/">
-          <img
-            src="https://mk0blogstarteng8gb57.kinstacdn.com/wp-content/uploads/2019/02/StartEngine.png"
-            alt=""
-          />
+          <Link to="/">
+            <img
+              src="https://mk0blogstarteng8gb57.kinstacdn.com/wp-content/uploads/2019/02/StartEngine.png"
+              alt=""
+            />
           </Link>
           <div className={styles.icon}>
             <FaSearch className={styles.search} />
