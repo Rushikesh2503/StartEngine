@@ -31,12 +31,12 @@ export default function Mains() {
         <div>
             <Navbar />
             <Achievements/>
-            <Card data={data} />
-            <GeneralInfoF3 />
-            <SuccessStoriesF4 />
-            <BlogFP />
-            <InvestFundFP />
-            <Footer />
+            <Card data={data}/>
+            <GeneralInfoF3/>
+            <SuccessStoriesF4/>
+            <BlogFP/>
+            <InvestFundFP/>
+            <Footer/>
         </div>
     )
 }

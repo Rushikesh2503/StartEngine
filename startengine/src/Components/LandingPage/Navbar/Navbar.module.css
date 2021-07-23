@@ -12,7 +12,13 @@
 }
 
 .navbar {
-  z-index: 1000;
+  height: 100px;
+  background-color: white;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  height: 100px;
 }
 
 .logo {
