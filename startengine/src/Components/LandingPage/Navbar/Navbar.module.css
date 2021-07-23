@@ -52,8 +52,9 @@
   transition: all 0.5s ease-in-out;
 }
 .center button:nth-child(1) {
-  /* background-color: #20c178; */
+  background-color: #20c178;
   border: 2px solid #20c178;
+  text-align: center;
   color: white;
 }
 
