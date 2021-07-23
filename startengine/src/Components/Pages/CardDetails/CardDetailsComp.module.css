@@ -1,0 +1,80 @@
+.mainCardDiv {
+  padding: 10px 100px;
+}
+.imgDivProd {
+  width: 800px;
+  padding: 10px;
+}
+.paraDesc {
+  text-align: justify;
+}
+.navHead {
+  display: flex;
+  padding: 0 20px;
+}
+.navHead > div > p {
+  font-size: 20px;
+}
+.logoImg {
+  width: 70px;
+  height: 70px;
+  margin: 35px 20px;
+}
+.frontBoxd {
+  display: flex;
+  /* background-color: aqua; */
+}
+
+.graytext {
+  color: gray;
+  font-weight: 400;
+}
+.graytext2 {
+  color: gray;
+  font-weight: 400;
+  padding: 5px 20px;
+  font-size: 12px;
+  font-style: italic;
+}
+.greenText {
+  color: rgb(32, 193, 120);
+  font-weight: 700;
+}
+.boxesInvest {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* background-color: grey; */
+  padding: 0 20px;
+  grid-gap: 30px;
+}
+.boxesInvest > div {
+  /* background-color: greenyellow; */
+  text-align: center;
+  margin: -10px 0;
+}
+.Prodimg {
+  width: 800px;
+  height: 550px;
+}
+.invMainDivData {
+  margin-left: 100px;
+  /* background-color: rgb(204, 158, 158); */
+  padding: 0px 30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.invBtn {
+  background-color: rgb(32, 193, 120);
+  border: 2px solid rgb(32, 193, 120);
+  border-radius: 5px;
+  width: 250px;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.greenLine {
+  color: rgb(32, 193, 120);
+  background-color: rgb(32, 193, 120);
+  height: 1px;
+}
