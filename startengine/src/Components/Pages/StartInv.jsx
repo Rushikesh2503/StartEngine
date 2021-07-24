@@ -22,5 +22,5 @@ const StartInv = () => {
     </div>
   );
 };
-
+//StartInvestment Page
 export default StartInv;
