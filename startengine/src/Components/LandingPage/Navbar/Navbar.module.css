@@ -50,6 +50,7 @@
   border-radius: 5px;
   margin: 2% 2% 1% 2%;
   transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
 .center button:nth-child(1) {
   background-color: #20c178;
@@ -132,5 +133,14 @@
     color: #20c178 !important;
     border-radius: 5px;
     margin: 0 10px;
+    cursor: pointer;
+  }
+  .linkBtn2 > button {
+    height: 50px;
+    background-color: #20c178 !important;
+    color: white !important;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
   }
 }

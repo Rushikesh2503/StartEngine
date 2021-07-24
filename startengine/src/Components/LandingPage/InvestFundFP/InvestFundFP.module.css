@@ -40,7 +40,7 @@
   grid-template-columns: auto;
 }
 
-.invesDivBg > button,
+.stInvesBtn1,
 .getFundBtn1 {
   background-color: rgb(32, 193, 120);
   color: white;

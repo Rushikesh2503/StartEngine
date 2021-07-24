@@ -4,6 +4,7 @@ import Fisher from "./Components/Pages/Fisher";
 import XCraft from "./Components/Pages/XCraft";
 import Home from "./Components/Pages/Home";
 import GetFunding from "./Components/Pages/GetFunding";
+import StartInv from "./Components/Pages/StartInv";
 function App() {
   return (
     <div>
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path="/XCraft">
             <XCraft />
+          </Route>
+          <Route path="/startInvest">
+            <StartInv/>
           </Route>
         </Switch>
       </Router>
