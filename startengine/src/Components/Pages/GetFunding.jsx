@@ -3,7 +3,7 @@ import Dashboard from '../LandingPage/GetFunding/Dashboard'
 import Funding from '../LandingPage/GetFunding/Funding'
 import Achievements from "../LandingPage/Achievements/Achievements";
 import Footer from "../LandingPage/Footer/Footer";
-
+import InvestFundFP from "../LandingPage/InvestFundFP/InvestFundFP"
 
 
 export default function GetFunding() {
@@ -14,6 +14,7 @@ export default function GetFunding() {
             <Funding/>
             <Achievements />
             <Dashboard/>
+            <InvestFundFP/>
             <Footer />
         </div>
     )

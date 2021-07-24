@@ -37,7 +37,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className={clicked ? styles.center : styles.container}>
-          <button>Start Investing</button>
+          <Link to="/startInvest" className={styles.linkBtn2}>
+            <button>Start Investing</button>
+          </Link>
           <Link to="/GetFunding" className={styles.linkBtn}>
             <button>Get Funding</button>
           </Link>

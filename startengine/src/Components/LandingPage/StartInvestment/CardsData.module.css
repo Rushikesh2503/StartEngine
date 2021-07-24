@@ -1,0 +1,29 @@
+/* .cardsMainDd {
+  background-color: wheat;
+} */
+.cardsDivv {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 40px;
+  margin-bottom: 60px;
+}
+.cardsDivInnerd > div {
+  /* background-color: wheat; */
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  border: 2px solid gray;
+  box-shadow: 0 0 5px rgba(146, 146, 146, 0.8);
+}
+
+@media only screen and (min-width: 992px) {
+  .cardsDivv {
+    grid-template-columns: auto auto auto;
+  }
+  .cardsDivInnerd > div {
+    /* background-color: wheat; */
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+}

@@ -19,7 +19,7 @@ export default function Mains() {
         const response = await axios.get(`http://localhost:3001/data`)
         const { data } = response
         setData(data)
-        console.log(data)
+        //console.log(data)
     }
 
     useEffect(() => {

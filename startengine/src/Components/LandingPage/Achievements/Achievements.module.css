@@ -88,6 +88,7 @@
   margin: 20px 0;
   padding: 0px;
 }
+
 @media only screen and (min-width: 992px) {
   .frMaindivC {
     display: flex;
