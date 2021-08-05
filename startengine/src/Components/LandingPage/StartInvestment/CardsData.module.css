@@ -15,7 +15,9 @@
   border: 2px solid gray;
   box-shadow: 0 0 5px rgba(146, 146, 146, 0.8);
 }
-
+.cardsMainDd {
+  text-align: center;
+}
 @media only screen and (min-width: 992px) {
   .cardsDivv {
     grid-template-columns: auto auto auto;

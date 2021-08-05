@@ -65,7 +65,7 @@
 }
 .bottom div {
   margin: 0 15px;
-  text-align: left;
+  text-align: center;
 }
 
 .bottom p {
@@ -79,4 +79,9 @@
 }
 .cardsDivv > div {
   margin: 0 30px;
+}
+.headdingCate {
+  margin: 30px auto;
+  color: #20c177;
+  font-family: sans-serif;
 }
