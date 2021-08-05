@@ -3,7 +3,6 @@ import styled from "./CardDetailsComp.module.css";
 
 
 const CardDetailsComp = ({data}) => {
-    console.log('data:', data)
     return (
         <div className={styled.mainCardDiv}>
             <div className={styled.navHead}>

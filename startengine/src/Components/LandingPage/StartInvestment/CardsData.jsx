@@ -13,7 +13,6 @@ export default function card() {
     const response = await axios.get(`http://localhost:3001/data`);
     const { data } = response;
     setData(data);
-    console.log("data:", data);
   };
 
   React.useEffect(() => {
