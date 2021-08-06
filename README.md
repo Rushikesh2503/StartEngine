@@ -6,6 +6,22 @@
 
 *We can invest early growth companies and startups through this website.*
 
+## Setup for running the application locally(Steps)
+
+ ##### Executing the commands mentioned below one by one in command line to run the application locally
+
+* *git clone https://github.com/Rushikesh2503/StartEngine.git*
+
+* *cd ./startengine*
+
+* *npm install*
+
+* *json-server --watch db.json --port 3001*
+
+* *npm start*
+
+ ##### After Entering the commands mentioned above,open http://localhost:3000 to view the web application in the browser
+
 ## Pages Build
 
 * *Landing Page*
