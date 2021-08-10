@@ -15,6 +15,11 @@
 * *cd ./startengine*
 
 * *npm install*
+* 
+* *npm i react-router-dom*
+* *npm i react-icons*
+* *npm i uuid*
+* *npm i axios*
 
 * *json-server --watch db.json --port 3001*
 
@@ -36,7 +41,7 @@
 
 * Responsiveness in Landing page*
 
-* Rerouting from one page to another*
+* Reroute from one page to another*
 
 ## Team Members
 
