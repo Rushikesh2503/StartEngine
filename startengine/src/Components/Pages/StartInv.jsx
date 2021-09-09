@@ -11,7 +11,7 @@ const StartInv = () => {
         Find a company. Become an investor.
       </h1>
       <br />
-      <p style={{ color: "#20c177", fontWeight: "bold", fontSize: "30px" }}>
+      <p style={{ color: "#20c177", fontWeight: "bold", fontSize: "25px" }}>
         SIGNED TO TRADE ON STARTENGINE SECONDARY
       </p>
       <br />

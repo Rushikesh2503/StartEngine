@@ -16,8 +16,10 @@ export default function Mains() {
     const [data,setData] = useState([])
      
     const fetchData = async () => {
-        const response = await axios.get(`http://localhost:3001/data`)
+        const response = await axios.get(`https://rushiapptest.herokuapp.com/data`)
+        console.log('response:', response)
         const { data } = response
+        console.log('data:', data)
         setData(data)
     }
 
