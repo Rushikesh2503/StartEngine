@@ -10,7 +10,7 @@ const Fisher = () => {
             "https://d19j0qt0x55bap.cloudfront.net/production/startups/5f344d3f7eb65b05c1b59e27/images/startup_image/profile_Logo__17_.jpg",
         tagLineTi: "Medical Devices for Mood and Sleep",
         cardimg:
-            "https://d19j0qt0x55bap.cloudfront.net/production/startups/5f344d3f7eb65b05c1b59e27/images/startup_cover/desktop_044a5459-edit__1_.jpg",
+            "https://d19j0qt0x55bap.cloudfront.net/production/pitch_contents/5d8163a650a11f7e60be20fd/campaign/images/eecabdf2-55fd-4140-b140-121b5faaa7cf.jpg",
         desc: "Fisher Wallace is a leading non-surgical electronics company for the brain. Our first product, the Fisher Wallace Stimulator®, is FDA-Cleared to treat depression, anxiety and insomnia. The device has been used by over 70,000 patients and is currently undergoing review by the FDA for new Approval and Clearance.",
         raised: "$2,861,272",
         prevCrFund: "$1,060,983",

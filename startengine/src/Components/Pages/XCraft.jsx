@@ -11,7 +11,7 @@ const XCraft = () => {
             "https://d19j0qt0x55bap.cloudfront.net/production/startups/5f9740c55aaa3925b7ae05e3/images/startup_image/profile_logo.jpg",
         tagLineTi: "America's Drone Company",
         cardimg:
-            "https://d19j0qt0x55bap.cloudfront.net/production/startups/5f9740c55aaa3925b7ae05e3/images/startup_cover/desktop_main_image-xcraft.jpg",
+            "https://d19j0qt0x55bap.cloudfront.net/production/startups/5f9740c55aaa3925b7ae05e3/campaign/images/desktop_be76b692-2b90-4f61-967c-d1398bcd09c0.png",
         desc: "Coined the “American Drone Company”, xCraft designs and manufactures customized, unmanned aerial systems for enterprise and military markets.",
         raised: "$703,690",
         prevCrFund: "$2,138,256",
