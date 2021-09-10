@@ -22,11 +22,11 @@ export default function Card() {
   const handleShowData = (e) => {
     let check = e.title.split(" ")[0];
     if (check === "Fisher") {
-      window.location = "http://localhost:3000/fisher";
+      window.location = "/fisher";
     } else if (check === "Piestro") {
-      window.location = "http://localhost:3000/piestro";
+      window.location = "/piestro";
     } else if (check === "xCraft") {
-      window.location = "http://localhost:3000/xCraft";
+      window.location = "/xCraft";
     }
   };
   const dataItem = data.map((item, i) => (
