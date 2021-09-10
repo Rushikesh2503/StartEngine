@@ -2,6 +2,51 @@
 
 *This is a working clone of the StartEngine website, this project has been done in order to learn the basic working of a website by implementing CSS3, JavaScript, ES6, JSON, JS DOM and React(Components). Working on this project helps to learn a lot of new things that goes into building a website. This is our collaborative project under the guidance of MASAI Team to facilitate the full stack web development curriculam.* 
 
+**Our team was given a task to Clone the StartEngine.com Website.**
+
+
+## Installing and Running
+
+Executing the commands mentioned below one by one in your command line will help in making this React app.
+**Cloning**
+
+```
+https://github.com/Rushikesh2503/StartEngine.git
+
+npm install
+
+```
+
+**To run the react app execute the below command**
+
+```
+cd startengine
+npm run start
+
+```
+## NPM Packages used
+
+- ### react [![react](https://camo.githubusercontent.com/475b49b04214dfa67c1ec8a2837888ae63003feb7b71fd45be30ff360148ad87/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f72656163742e7376673f7374796c653d666c6174)](https://github.com/facebook/react)
+
+- ### react-router-dom [![react-router-dom](https://camo.githubusercontent.com/475b49b04214dfa67c1ec8a2837888ae63003feb7b71fd45be30ff360148ad87/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f72656163742e7376673f7374796c653d666c6174)](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
+- ### axios [![axios](https://camo.githubusercontent.com/1f22b6c297d1cb0e3aa68b2e6fed42da8b002bbefca8d63e99e0b790da8cce9b/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f6178696f732e7376673f7374796c653d666c61742d737175617265)](https://github.com/axios/axios)
+
+- ### create-react-app [![create-react-app](https://camo.githubusercontent.com/475b49b04214dfa67c1ec8a2837888ae63003feb7b71fd45be30ff360148ad87/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f72656163742e7376673f7374796c653d666c6174)](https://github.com/facebook/create-react-app)
+
+- ### react-icons
+
+- ### uuid
+
+
+## Technologies Used
+
+<p align="left">
+ <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="100" height="100"/> </a>  
+ <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="100" height="100"/> </a>  
+ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="100" height="100"/> </a> 
+ <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="100" height="100"/> </a>
+</p>
+
 
 ## Deployed Link
 
@@ -19,11 +64,6 @@
 
 * *cd ./startengine*
 
-* *npm install*
-* *npm i react-router-dom*
-* *npm i react-icons*
-* *npm i uuid*
-* *npm i axios*
 
 * *json-server --watch db.json --port 3001*
 
@@ -47,19 +87,12 @@
 
 * Reroute from one page to another*
 
-## Team Members
+## Team Members and Contributors
 
 * *Rushikesh Bambadkar*
 * *Vaibhav Raj*
 
-## Tech Stack
 
-* *React Icons*
-* *Axios*
-* *react-route-dom*
-* *uuid*
-* *GIT*
-* *JSON Server*
 
 ## Demo Image of Our Cloned Website
 ![startengine](https://user-images.githubusercontent.com/82999542/126889562-f1a70a64-4d3e-49b6-ab55-e8d3e0aa7527.png)
