@@ -66,9 +66,9 @@ npm run start
 
 ## Functionalities Added
 
-* Responsiveness in Landing page*
+* *Responsiveness in Landing page*
 
-* Reroute from one page to another*
+* *Reroute from one page to another*
 
 ## Team Members and Contributors
 
