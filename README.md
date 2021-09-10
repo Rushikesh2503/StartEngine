@@ -77,8 +77,24 @@ npm run start
 
 
 
-## Demo Image of Our Cloned Website
+## Demo Images of Our Cloned Website
+
+* <h3>Home Page</h3>
+
 ![startengine](https://user-images.githubusercontent.com/82999542/126889562-f1a70a64-4d3e-49b6-ab55-e8d3e0aa7527.png)
+
+* <h3>Get Funding Page</h3>
+
+![getfundpg](https://user-images.githubusercontent.com/82999542/132876728-7861aa37-66ff-40cd-ab14-574393d44b8f.png)
+
+
+* <h3>Start Invest Page</h3>
+
+![strInvPg](https://user-images.githubusercontent.com/82999542/132876744-8795d4da-8367-4e5f-ac8f-bb322fcdda58.png)
+
+* <h3>Success Stories</h3>
+
+![sucesspage](https://user-images.githubusercontent.com/82999542/132876758-e91d1331-2d77-4a85-b7b8-136d54417918.png)
 
 
 ## Note:
