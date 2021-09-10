@@ -22,7 +22,7 @@ function App() {
           <Route path="/fisher">
             <Fisher />
           </Route>
-          <Route path="/XCraft">
+          <Route path="/xCraft">
             <XCraft />
           </Route>
           <Route path="/startInvest">
